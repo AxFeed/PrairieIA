@@ -29,7 +29,7 @@ function Check_Programmes($NomProgramme) {
 }
 
 function Check_Calcul($a, $b) {
-	
+	Write-Output "`nVerifications des calculs...`n"
 	if(($a+$b) -eq 4){
 		return "$a + $b est bien egal a 4"
 	}else{
@@ -46,8 +46,13 @@ $programmes = @(
 	"Test pour erreur"
 )
 
-foreach($programme in $programmes){
-	Check_Programmes("$programme")
+Write-Output "Verification des applications installees...`n"
+if($programmes.lenght -ne 0){
+	foreach($programme in $programmes){
+		Check_Programmes("$programme")
+	}
+}else{
+	Write-Output "Il semble que la liste d'applications soit vide !"
 }
 
 Check_Calcul 2 2
