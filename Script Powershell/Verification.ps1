@@ -47,12 +47,8 @@ $programmes = @(
 )
 
 Write-Output "Verification des applications installees...`n"
-if($programmes.lenght -ne 0){
-	foreach($programme in $programmes){
-		Check_Programmes("$programme")
-	}
-}else{
-	Write-Output "Il semble que la liste d'applications soit vide !"
+foreach($programme in $programmes){
+	Check_Programmes("$programme")
 }
 
 Check_Calcul 2 2
