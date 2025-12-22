@@ -1,0 +1,7 @@
+site_name: Documentation Exercice 1
+nav:
+  - Accueil: index.html
+  - Vérification des calculs: check_calcul/index.html
+  - Vérification des programmes installés: check_programmes/index.html
+theme:
+  name: readthedocs
