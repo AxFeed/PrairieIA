@@ -56,3 +56,6 @@ Cette fonction vérifie si la somme de deux nombres est égale à 4.
 ## Exemples
 - ```py Check_Calcul 2 2```   # Retourne : "2 + 2 est bien egal a 4"
 - ```py Check_Calcul 2 3```  # Retourne : "2 + 3 n'est pas egal a 4"
+
+
+fndsfdbsnfsnfndsfbndsfndsbfnsfndsfns
