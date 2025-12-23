@@ -1,6 +1,6 @@
 # Réponses à l'exercice 3
 
-Voici une requête Http => GET https://dummyjson.com:443/recipes?limit=10 HTTP/2, on va expliquer pas à pas son fonctionnement
+Voici une requête Http => ````GET https://dummyjson.com:443/recipes?limit=10 HTTP/2````, on va expliquer pas à pas son fonctionnement
 
 ##C’est quoi une requête HTTP ?
 
