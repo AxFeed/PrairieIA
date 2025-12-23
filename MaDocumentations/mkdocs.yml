@@ -3,6 +3,7 @@ site_url: https://axfeed.github.io/PrairieIA/
 nav:
   - Accueil: index.md
   - Vérification : verification.md
+  - Secunda: secunda.md
   - Tertia: tertia.md
 theme:
   name: readthedocs
