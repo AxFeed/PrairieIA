@@ -1,8 +1,10 @@
 site_name: Ma documentation de la PrairieIA
-site_url: https://axfeed.github.io/PrairieIA/index.html
+site_url: https://axfeed.github.io/PrairieIA/
 nav:
   - Accueil: index.md
-  - Vérification : verification/index.md
-  - Tertia: tertia/index.md
+  - Vérification : verification.md
+  - Tertia: tertia.md
 theme:
   name: readthedocs
+  plugins:
+  - search
