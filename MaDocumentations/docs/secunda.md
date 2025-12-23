@@ -33,7 +33,7 @@ Pour créer son projet MkDocs, il faut taper la commande suivante
 	mkdocs new NomDuProjet
 ```
 
-Attention il se peut que cela ne marche pas, dans ce cas il faudra taper avant chaque commande mkdocs ```python -m````
+Attention il se peut que cela ne marche pas, dans ce cas il faudra taper avant chaque commande mkdocs ```python -m```
 
 Exemple :
 ```py
