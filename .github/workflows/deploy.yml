@@ -32,12 +32,13 @@ jobs:
           pip install mkdocs mkdocs-material
 
       - name: Build MkDocs
+        working-directory: MaDocumentation
         run: mkdocs build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: MaDocumentation/site
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
