@@ -1,7 +1,8 @@
-site_name: Documentation Exercice 1
+site_name: Ma documentation de la PrairieIA
+site_url: https://axfeed.github.io/PrairieIA/index.html
 nav:
   - Accueil: index.html
-  - Vérification des calculs: check_calcul/index.html
-  - Vérification des programmes installés: check_programmes/index.html
+  - Vérification : verification/index.html
+  - Tertia: tertia/index.html
 theme:
   name: readthedocs

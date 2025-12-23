@@ -1,9 +1,4 @@
-# Documentation du Script PowerShell
+# Documentation des exercices de PrairieIa
 
-Ce script permet de :
-
-- Vérifier si certains programmes sont installés sur un ordinateur Windows.
-- Vérifier des calculs simples (addition de deux nombres).
-
-Il utilise deux fonctions principales : `Check_Programmes` et `Check_Calcul`.
+Bonjour, ici vous pourrez retrouver toute la documentation sur les exercices de PrairieIa
 
