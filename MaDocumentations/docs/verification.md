@@ -1,4 +1,4 @@
-#Documentation du Script PowerShell
+# Documentation du Script PowerShell
 
 Ce script permet de :
 
@@ -10,7 +10,7 @@ Il utilise deux fonctions principales : `Check_Programmes` et `Check_Calcul`.
 [Lien vers le GIT](https://github.com/AxFeed/PrairieIA/blob/main/Script%20Powershell/Verification.ps1)
 
 
-#Vérification des programmes installés
+# Vérification des programmes installés
 
 ##Fonction : `Check_Programmes($NomProgramme)`
 
