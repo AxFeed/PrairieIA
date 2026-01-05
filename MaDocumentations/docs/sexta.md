@@ -80,6 +80,42 @@ Ce diagramme permet de comprendre l’ordre chronologique des interactions.
 
 ---
 
+
+## Diagramme de classes (Class Diagram)
+
+Le diagramme de classes montre **la structure des données et des objets** dans l’application,
+ainsi que leurs relations selon l’architecture MVC (Model-View-Control).
+
+### Classes principales
+
+- **Note**
+  - `- id: int` (private) – identifiant unique de la note
+  - `- content: string` (private) – texte de la note
+- **Model**
+  - `- notes: array` (private) – tableau de toutes les notes
+  - `+ addNewNote()` – crée une nouvelle note
+  - `+ closeNote(id, text)` – sauvegarde le contenu d’une note
+- **View**
+  - `+ addNote(note)` – affiche une nouvelle note
+  - `+ disableNote(note)` – met la note en lecture seule
+- **Control**
+  - `+ validateNote(event)` – récupère les informations et déclenche la sauvegarde
+
+### Relations principales
+
+- Control → Model : utilise `closeNote()`
+- Model → View : utilise `addNote()` et `disableNote()`
+- Model *contient* Note (`1..*`)
+- Note est manipulée uniquement via Model
+
+### Diagramme
+
+![Diagramme de classes](Images/Class Diagram.png)
+
+*Figure 5 – Diagramme de classes de l’application*
+
+---
+
 ## Conclusion
 
 L’utilisation conjointe des diagrammes UML et du wireframe permet d’avoir
