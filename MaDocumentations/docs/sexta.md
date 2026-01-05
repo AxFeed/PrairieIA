@@ -19,7 +19,7 @@ Dans cette application, l’utilisateur peut :
 
 Le diagramme ci-dessous représente ces interactions de manière globale.
 
-![Diagramme de cas d’utilisation](images/Use%20case.png)
+![Diagramme de cas d’utilisation](Images/Use case.png)
 
 *Figure 1 – Diagramme de cas d’utilisation de l’application*
 
@@ -37,7 +37,7 @@ Le wireframe de l’application montre :
 - une liste de notes affichées sous forme de cartes
 - les deux états possibles d’une note : édition et validation
 
-![Wireframe de l’application](images/Wireframe.png)
+![Wireframe de l’application](Images/Wireframe.png)
 
 *Figure 2 – Wireframe de l’interface principale*
 
@@ -55,7 +55,7 @@ Le diagramme présente notamment :
 - la validation de la note
 - la réponse visuelle affichée à l’utilisateur
 
-![Diagramme d’activité](images/Activity%20Diagram.png)
+![Diagramme d’activité](Images/Activity Diagram.png)
 
 *Figure 3 – Diagramme d’activité de l’application*
 
@@ -74,7 +74,7 @@ Il montre :
 
 Ce diagramme permet de comprendre l’ordre chronologique des interactions.
 
-![Diagramme de séquence](images/Sequence%20Diagram.png)
+![Diagramme de séquence](Images/Sequence Diagram.png)
 
 *Figure 4 – Diagramme de séquence de l’application*
 
