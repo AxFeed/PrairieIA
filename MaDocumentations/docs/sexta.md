@@ -118,11 +118,11 @@ ainsi que leurs relations selon l’architecture MVC (Model-View-Control).
 
 ## Conclusion
 
-L’utilisation conjointe des diagrammes UML et du wireframe permet d’avoir
-une vision complète de l’application :
+L’utilisation conjointe des diagrammes UML et du wireframe permet d’avoir une vision complète de l’application :
 - le **Use Case** décrit les fonctionnalités
 - le **Wireframe** décrit l’interface utilisateur
 - le **Diagramme d’activité** décrit le fonctionnement global
 - le **Diagramme de séquence** décrit les échanges internes
+- le **Digramme de classe** décrit les variables, les fonctions et les relation entre chaque classe
 
 Ces éléments facilitent la compréhension, la maintenance et l’évolution du projet.
