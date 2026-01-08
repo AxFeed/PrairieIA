@@ -4,7 +4,7 @@ Ce code permet de composer des groupes random de X personne(s) en fonction d'une
 
 Il utilise une fonction principale : `OrganisateurDeGroupe`.
 
-[Lien vers le GIT](https://github.com/AxFeed/PrairieIA/blob/main/Script%20Powershell/Verification.ps1)
+[Lien vers le GIT](https://github.com/AxFeed/PrairieIA/blob/main/Composition%20de%20groupe/Createur_de_groupe.py)
 
 
 ## Composeur de groupe
