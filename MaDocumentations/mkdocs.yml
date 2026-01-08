@@ -8,6 +8,9 @@ nav:
   - Quarta: Quarta.md
   - Quinta: quinta.md
   - Sexta: sexta.md
+  - Septima: septima.md
+  - Octavia: octavia.md
+  - Nona: nona.md
 theme:
   name: readthedocs
   plugins:
