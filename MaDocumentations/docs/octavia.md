@@ -71,17 +71,8 @@ Cette fonction génère un **DataFrame de données simulées** représentant des
 ### Fonctionnement
 
 1. Création d’un DataFrame vide avec les colonnes `a`, `b`, `c`, `d`, `v`, `1`, `2`, `3`, `ref`
-2. Pour chaque ligne :
-
-   - Génère 3 barres de tailles différentes  
-   - Choisit aléatoirement la bonne réponse  
-   - Définit une référence (`ref`)  
-   
-3. Selon la probabilité donnée :
-
-   - soit les complices donnent la bonne réponse  
-   - soit ils donnent volontairement une mauvaise réponse  
-   
+2. Pour chaque ligne: Génère 3 barres de tailles différentes => Choisit aléatoirement la bonne réponse => Définit une référence (`ref`)    
+3. Selon la probabilité donnée : Soit les complices donnent la bonne réponse, soit ils donnent volontairement une mauvaise réponse  
 4. Ajoute la ligne au DataFrame  
 5. Affiche le nombre de tromperies si le taux n’est pas à 100 %  
 
@@ -129,6 +120,3 @@ Le programme permet de :
 - Visualiser l’impact du bruit dans les données d’entraînement
 - Observer la robustesse de l’arbre de décision
 - Analyser la performance du modèle en fonction du taux d’erreur
-
-
-Brrr brrr patapim
