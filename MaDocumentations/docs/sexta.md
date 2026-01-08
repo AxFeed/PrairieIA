@@ -1,7 +1,7 @@
 # Conception de l’application
 
-Cette page présente les différents éléments de conception utilisés pour décrire
-le fonctionnement et l’interface de l’application de prise de notes.
+Cette page présente les différents éléments de conception utilisés pour décrire le fonctionnement et l’interface de l’application de prise de notes.
+[Lien Git de l'application](https://gitlab.com/Nasyourte/exo-retroengineering)
 Les diagrammes et le wireframe permettent de comprendre le système avant son implémentation.
 
 ---
@@ -127,3 +127,11 @@ L’utilisation conjointe des diagrammes UML et du wireframe permet d’avoir un
 - le **Digramme de classe** décrit les variables, les fonctions et les relation entre chaque classe
 
 Ces éléments facilitent la compréhension, la maintenance et l’évolution du projet.
+
+Pour ce qui est des éléménts d'amélioration possible :
+
+- Afficher directement une note au début sans cliquer sur "Plus"
+- Pouvoir supprimer une note
+- Mettre le bouton "Plus" en dessous de la dernière note
+- Valider les notes automatiquement quand l'utilisateur à arrêter de taper
+- Pouvoir modifier une note
