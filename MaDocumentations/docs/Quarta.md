@@ -11,7 +11,7 @@ Il utilise une fonction principale : `OrganisateurDeGroupe`.
 
 ### Fonction : `OrganisateurDeGroupe(nombreParGroupe)`
 
-Cette fonction retourne X groupe de N personne, N étant la variavke nombreParGroupe.
+Cette fonction retourne X groupe de N personne, N étant le nobre de personne par groupe.
 
 ### Paramètres
 
