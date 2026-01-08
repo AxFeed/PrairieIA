@@ -8,6 +8,8 @@ Ici nous allons comprendre comment faire pour insérer et recupérer des donnée
 
 Voici celle sur laquelle on veut faire notre excercice.
 
+[Lien vers le GIT qui contient tout les scripts](https://github.com/AxFeed/PrairieIA/tree/main/SQL)
+
 ##Créer les tables
 
 Pour qu'on puisse faire des requêtes sur notre base, il faut d'abord avoir des tables qui contiendront les différentes données.
