@@ -80,7 +80,7 @@ Cette fonction génère un **DataFrame de données simulées** représentant des
 
 ### Exemple
 
-```python
+```py
 df = generate(100, 80)
 ```
 
@@ -96,12 +96,7 @@ Retourne la bonne réponse en comparant la référence (ref) aux tailles des bar
 
 ### Fonctionnement
 
-1.Compare la valeur de ref avec :
-
-  - la barre 1
-  - la barre 2
-  - sinon la barre 3
-  
+1. Compare la valeur de ref avec : la barre 1, la barre 2 et la barre 3 
 2. Retourne le numéro correspondant à la bonne barre
 
 ### Fonction : solveDf(df)
@@ -109,7 +104,9 @@ Retourne la bonne réponse en comparant la référence (ref) aux tailles des bar
 Applique la fonction solve à toutes les lignes d’un DataFrame et remplit la colonne v.
 
 ### Exemple
+```py
 solveDf(df)
+```
 
 Ajoute automatiquement la colonne v au DataFrame.
 
