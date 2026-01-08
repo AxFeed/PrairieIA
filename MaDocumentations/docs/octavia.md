@@ -16,16 +16,12 @@ Ce script orchestre l’ensemble du programme : génération des données, entra
 
 ### Fonctionnement global
 
-1. Demande à l’utilisateur :
-   - le nombre de données d’entraînement
-   - le nombre de données de test
+1. Demande à l’utilisateur, le nombre de données d’entraînement et le nombre de données de test
 2. Génère un **jeu de test propre** (100 % de bonnes réponses)
 3. Fait varier le **taux de bonnes réponses** dans les données d’entraînement
 4. Entraîne un **arbre de décision**
 5. Compare les prédictions du modèle avec la solution réelle
-6. Trace :
-   - l’arbre de décision
-   - un graphique de performance du modèle
+6. Trace l’arbre de décision et un graphique de performance du modèle
 
 ---
 
@@ -74,15 +70,18 @@ Cette fonction génère un **DataFrame de données simulées** représentant des
 
 ### Fonctionnement
 
-1. Création d’un DataFrame vide avec les colonnes :
-   - `a`, `b`, `c`, `d`, `v`, `1`, `2`, `3`, `ref`
+1. Création d’un DataFrame vide avec les colonnes `a`, `b`, `c`, `d`, `v`, `1`, `2`, `3`, `ref`
 2. Pour chaque ligne :
+
    - Génère 3 barres de tailles différentes  
    - Choisit aléatoirement la bonne réponse  
    - Définit une référence (`ref`)  
+   
 3. Selon la probabilité donnée :
+
    - soit les complices donnent la bonne réponse  
    - soit ils donnent volontairement une mauvaise réponse  
+   
 4. Ajoute la ligne au DataFrame  
 5. Affiche le nombre de tromperies si le taux n’est pas à 100 %  
 
