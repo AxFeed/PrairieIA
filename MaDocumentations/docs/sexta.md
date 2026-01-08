@@ -1,8 +1,9 @@
 # Conception de l’application
 
 Cette page présente les différents éléments de conception utilisés pour décrire le fonctionnement et l’interface de l’application de prise de notes.
-[Lien Git de l'application](https://gitlab.com/Nasyourte/exo-retroengineering)
 Les diagrammes et le wireframe permettent de comprendre le système avant son implémentation.
+
+[Lien Git de l'application](https://gitlab.com/Nasyourte/exo-retroengineering)
 
 ---
 
