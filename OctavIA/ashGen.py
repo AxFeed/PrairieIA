@@ -3,9 +3,10 @@ import random
 import pandas as pd
 
 
-def generate(n, prob):
+def generate(n, chanceBonneReponse = 100):
     ash_keys = ['a', 'b', 'c', 'd', 'v', '1', '2', '3', 'ref']  # les colonnes de mon df
     df = pd.DataFrame(columns=ash_keys)  # créer le df
+    trompage = 0
 
     for i in range(n):  # n fois
         bars = set()  # un set, c'est (presque) comme un tableau, mais sans doublon
@@ -18,14 +19,15 @@ def generate(n, prob):
         bonne_reponse = random.randrange(1, 4)  # choisir au hasard une barre
         ref = bars[bonne_reponse - 1]  # mettre la même taille à la ref
 
-        if random.random() < n / 100:
-            choix_des_complices = bonne_reponse - 1
+        if random.random() < chanceBonneReponse / 100:
+            choix_des_complices = bonne_reponse
         else:
             choix_des_complices = random.randrange(1,
                                                4)  # pour les complices il ne faut pas qu'ils choisissent la bonne
                                                         # réponse !
             while bars[choix_des_complices - 1] == ref:  # donc, je choisi au hasard jusqu'à ce que ce soit faux
                 choix_des_complices = random.randrange(1, 3)
+            trompage += 1
 
         ligne = [
             choix_des_complices,  # a
@@ -41,6 +43,9 @@ def generate(n, prob):
         autre_df = pd.DataFrame([ligne], columns=ash_keys)
 
         df = pd.concat([df, autre_df])
+
+    if chanceBonneReponse != 100:
+        print("On a fait exprès de se tromper", trompage , "fois sur", n, "générations !")
 
     return df
 
