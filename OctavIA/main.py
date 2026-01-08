@@ -29,7 +29,7 @@ while chanceBonneReponse != 105:
     arbre = arbre.fit(inputs, output)
 
     # Si jamais ou veut afficher l'arbre de décision du modèle
-
+    """"
     tree.plot_tree(arbre)
 
     plt.figure(figsize=(30,15))  # plus grand pour mieux voir
@@ -47,6 +47,7 @@ while chanceBonneReponse != 105:
 
     # Afficher
     plt.show()
+    """
 
 
     # Prédictions pour toutes les lignes en une seule fois (sur test propre)

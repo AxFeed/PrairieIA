@@ -90,7 +90,7 @@ Cela génère 100 lignes avec 80 % de bonnes réponses et 20 % d’erreurs volon
 
 Cette classe permet de calculer la bonne réponse théorique à partir des données.
 
-### Fonction : solve(line)
+### Fonction : `solve(line)`
 
 Retourne la bonne réponse en comparant la référence (ref) aux tailles des barres.
 
@@ -99,7 +99,7 @@ Retourne la bonne réponse en comparant la référence (ref) aux tailles des bar
 1. Compare la valeur de ref avec : la barre 1, la barre 2 et la barre 3 
 2. Retourne le numéro correspondant à la bonne barre
 
-### Fonction : solveDf(df)
+### Fonction : `solveDf(df)`
 
 Applique la fonction solve à toutes les lignes d’un DataFrame et remplit la colonne v.
 
@@ -117,3 +117,27 @@ Le programme permet de :
 - Visualiser l’impact du bruit dans les données d’entraînement
 - Observer la robustesse de l’arbre de décision
 - Analyser la performance du modèle en fonction du taux d’erreur
+
+Decisions trees :
+
+![Decision tree à 0% de bonne réponse des complices](Images/decision_tree_0.png)
+
+*Figure 1 – Decision tree à 0% de bonne réponse des complices*
+
+![Decision tree à 50% de bonne réponse des complices](Images/decision_tree_50.png)
+
+*Figure 2 – Decision tree à 50% de bonne réponse des complices*
+
+![Decision tree à 90% de bonne réponse des complices](Images/decision_tree_90.png)
+
+*Figure 3 – Decision tree à 90% de bonne réponse des complices*
+
+![Decision tree à 100% de bonne réponse des complices](Images/decision_tree_100.png)
+
+*Figure 4 – Decision tree à 100% de bonne réponse des complices*
+
+Graphe de performance :
+
+![Graphe de performance du modèle](Images/performance_modele.png)
+
+*Figure 5 – Graphe de performance du modèle en fonction de sa réussite par rapport au nombres de bonne données*
