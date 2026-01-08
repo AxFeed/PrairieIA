@@ -6,6 +6,7 @@ nav:
   - Secunda: secunda.md
   - Tertia: tertia.md
   - Quarta: quarta.md
+  - Test: Quarta.md
   - Sexta: sexta.md
 theme:
   name: readthedocs
