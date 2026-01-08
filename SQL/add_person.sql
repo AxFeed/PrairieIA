@@ -1,0 +1,1 @@
+INSERT INTO people VALUES (1, 1, 'Gregory', 1.75, '1995-11-13', 2);

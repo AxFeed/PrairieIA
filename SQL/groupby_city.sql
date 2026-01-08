@@ -1,0 +1,1 @@
+SELECT p.name, c.name as villeNaissance FROM people as p JOIN city c ON c.id = p.place_of_birth;

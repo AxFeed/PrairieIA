@@ -1,0 +1,1 @@
+INSERT INTO city VALUES (1, 'Toulouse', 43.604652, 1.444209);

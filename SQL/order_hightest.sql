@@ -1,0 +1,1 @@
+SELECT * FROM people ORDER BY height asc;
