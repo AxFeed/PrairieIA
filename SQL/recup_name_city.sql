@@ -1,1 +1,1 @@
-SELECT c.name as ville, array_agg(p.name) as personne FROM people p JOIN city c ON p.city = c.id GROUP BY c.name ORDER BY c.name;
+SELECT p.name, c.name as villeNaissance FROM people as p JOIN city c ON c.id = p.place_of_birth;
