@@ -27,7 +27,7 @@ Cette fonction retourne X groupe de N personne, N étant la variavke nombreParGr
 
 ### Exemples
 
-- ```py OrganisateurDeGroupe(3)``` 
+- ```OrganisateurDeGroupe(3)``` 
 ```
 Dans mon tableau 1 j'ai
 Asma
@@ -45,7 +45,7 @@ Dans mon tableau 4 j'ai
 Manar
 Danitza
 ```
-- ```py OrganisateurDeGroupe(5)```
+- ```OrganisateurDeGroupe(5)```
 ```
 Dans mon tableau 1 j'ai
 Yacine
