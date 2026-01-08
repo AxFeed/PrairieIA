@@ -3,6 +3,7 @@
 Ce projet simule un **jeu de cartes simple entre un humain et un robot**, en testant différentes **stratégies de jeu** afin d’analyser le **taux de victoire du robot** selon la stratégie utilisée par chaque joueur.
 
 Le programme permet de :
+
 - simuler un grand nombre de parties
 - tester toutes les combinaisons de stratégies possibles
 - calculer les winrates
@@ -193,15 +194,19 @@ Les résultats sont affichés sous forme de **heatmap** grâce à `seaborn`.
 - Les valeurs représentent le **taux de victoire du robot**
 - Plus la valeur est élevée, plus la stratégie est efficace pour le robot
 
+![Graphe du taux de victoire du robot](Images/graph_card_game.png)
+
+*Figure 1 – Graphe du taux de victoire du robot*
+
 ---
 
 ## Conclusion
 
 Ce projet permet de :
 
-- comparer différentes stratégies de jeu
-- observer leur efficacité statistique
-- visualiser clairement les résultats
-- analyser l’avantage stratégique du robot selon le comportement humain
+- Comparer différentes stratégies de jeu
+- Observer leur efficacité statistique
+- Visualiser clairement les résultats
+- Analyser l’avantage stratégique du robot selon le comportement humain
 
 ---
