@@ -106,9 +106,11 @@ Retourne la bonne réponse en comparant la référence (ref) aux tailles des bar
 ### Fonctionnement
 
 1.Compare la valeur de ref avec :
+
   - la barre 1
   - la barre 2
   - sinon la barre 3
+  
 2. Retourne le numéro correspondant à la bonne barre
 
 ### Fonction : solveDf(df)
@@ -127,3 +129,6 @@ Le programme permet de :
 - Visualiser l’impact du bruit dans les données d’entraînement
 - Observer la robustesse de l’arbre de décision
 - Analyser la performance du modèle en fonction du taux d’erreur
+
+
+Brrr brrr patapim
