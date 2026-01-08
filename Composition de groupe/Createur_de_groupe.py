@@ -1,6 +1,6 @@
 import random
 
-apprenantsList = ["a1", "a2", "a3", "a4", "a5", "a6", "a7", "a8", "a9", "a10", "a11"] # Ma liste d'apprenant
+apprenantsList = ["Inès", "Asma", "Khrisly", "Yacine", "Ludovic", "Manon", "Lilian", "Manar", "Ahmadola", "Noemie", "Danitza"] # Ma liste d'apprenant
 tableauxApprenant = [] # Ma liste qui va contenir les différents tableaux d'apprenants
 tableau = [] # La liste qui contiendra un tableau que je mettrai dans la liste de tableau
 

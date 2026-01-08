@@ -5,6 +5,7 @@ nav:
   - Vérification : verification.md
   - Secunda: secunda.md
   - Tertia: tertia.md
+  - Quarta: quarta.md
   - Sexta: sexta.md
 theme:
   name: readthedocs
